@@ -1,0 +1,11 @@
+version: '3.5'
+services:
+  presentation:
+    image: node:alpine
+    ports:
+      - 4000:4000
+    volumes:
+      - .:/src/app
+      - /src/app/node_modules
+    working_dir: /src/app
+    command: sh -c 'yarn install && yarn run serve'
