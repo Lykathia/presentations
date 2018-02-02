@@ -39,7 +39,7 @@ module.exports = {
   ],
   devtool: 'inline-source-map',
   devServer: {
-    contentBase: './dist',
+    contentBase: ['./dist', './assets'],
     port: 4000,
     host: '0.0.0.0'
   }
