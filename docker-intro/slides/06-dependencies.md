@@ -34,3 +34,5 @@ No global state, no assumptions. Ship with everything you need.
 ### <span style='color: red'>VENDORING</span>
 
 BAD BAD BAD BAD
+
+<img src='spinmill.gif'>

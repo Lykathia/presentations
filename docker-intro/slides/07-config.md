@@ -1,8 +1,8 @@
-## Config
+### Config
 
-Use the environment, Luke
+`docker run -e AWS_SECRET_KEY=...`
 
-`docker run -e AWS_SECRET_KEY=foofoomamachoo ...`
+<img src='luke-env.jpeg'>
 
 ---
 
@@ -35,7 +35,7 @@ Dev, QA, Staging, Nightly, Production<span class='fragment'>, Oracle</span>
 
 <span class='fragment'>Doesn't scale.</span>
 
-
----
-
-Docker compose example
+<div class='fragment'>
+    Prefer: Build => Release => Run
+    <img src='release.png' style='background:white;'>
+</div>

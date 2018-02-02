@@ -2,8 +2,14 @@
 
 Ship it Mr.Falcon
 
+---
+
+<img src='dayne.gif'>
+
+I'm here to talk about Docker today.
 
 ---
+
 
 ### What is docker
 
